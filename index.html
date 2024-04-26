@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Center</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Navbar -->        
+    <nav class="navBar" id="navbar">        
+        <a href="#home"><img src="public/images/logo.png" alt="logo" class="hero-img"></a>
+        <input type="checkbox" id="mini-menu" class="checkbox-btn">
+        <label for="mini-menu"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512"  xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="48" d="M88 152h336M88 256h336M88 360h336"></path></svg></label>
+        <div class="navBar-Btns">
+            <a href="#home">Home</a>
+            <a href="#about" class="hidden">About</a>
+            <a href="#classes">Classes</a>
+            <a href="#services" class="hidden">Services</a>
+            <a href="#trainer">Trainer</a>
+            <a href="#review">Review</a>
+            <a href="#blog" class="hidden">Blog</a>
+            <a href="#contact">Contact</a>
+            <a href="#" id="join">Join Us</a>
+        </div>
+    </nav>
+    <!-- Home -->
+    <header class="head" id="home">        
+       
+        <!-- Navbar text  -->
+        <nav class="navbarText" >
+            <div id="power"><a >POWERFULL</a></div>
+            <h1>Group Practice <br><span>With Trainer</span></h1>
+            <p class="sectin-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Fugiat, delectus illo eos laudantium in pariatur assumenda ipsam molestiae alias dolores ducimus 
+            necessitatibus doloremque velit voluptates porro reiciendis nulla obcaecati perferendis?
+            </p>
+            <div class="bottomButtons">
+                <a href="#" id="singIn">Sign Up</a>
+                <a href="#" id="details">Details</a>
+            </div>
+        </nav>        
+    </header>
+    <!-- Classes -->
+    <section class="classes">       
+        
+        <div class="cards" id="about">
+            <div><p>325</p><span>Course</span></div>
+            <div><p>405</p><span>Work Out</span></div>
+            <div><p>305</p><span>Working Hour</span></div>
+            <div><p>705</p><span>Happy Client</span></div>          
+        </div>
+        <div class="mainClasses" id="classes">
+            <div class="classesHead">
+                <h2 class="sections-header">OUR CLASSES</h2>
+                <div class="header-symbol"></div>
+                <p class="sectin-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Ipsa voluptatem laborum doloremque repellendus dolores dolore omnis esse nemo sint.
+                </p>
+            </div>            
+            <div class="secondClasses">
+                <div class="classesBtn">
+                    
+                    <button type="button" id="yogaBtn">Yoga</button>
+                    <button type="button" id="groupBtn">Group</button>
+                    <button type="button" id="soloBtn">Solo</button>
+                    <button type="button" id="stretchingBtn">Stretching</button>
+                </div>
+                
+                <div class="btnContainer">
+                    <div id="btnBox">
+                        <h3 id="btnHeader">Why are your yoga?</h3>
+                        <p id="lower-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae 
+                            fugiat minima impedit excepturi iure, doloremque ipsum! Ullam exercitationem ex odio?
+                        </p>
+                        <h3>When comes Yoga Your Time.</h3>
+                        <p>Saturday-Sunday:8:00am-10:00pm</p>
+                        <p>Monday-Tuesday: 10:00am - 12:00pm</p>
+                        <p>Wednesday-Friday: 3:00pm - 6:00pm</p> 
+                    </div>  
+                    <img  src="public/images/yoga.jpg" alt="">             
+                </div>
+            </div>
+            <div class="classes-clip"></div>            
+        </div>
+        
+        
+    </section>
+    <!-- BMI Calculator -->
+    <nav class="bmı">
+        <div class="bmiCalculator">
+            <h2>BMI Calculator</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Odio, eaque. Nihil est veritatis mollitia sunt?
+                Odio, eaque. Nihil est veritatis mollitia sunt?
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Odio, eaque. Nihil est veritatis mollitia sunt?
+                Odio, eaque. Nihil est veritatis mollitia sunt?
+            </p>
+            <div class="inputForm">
+                <div><input id="inputHeight" name="height" type="number" placeholder=" Your Height"  >cm</div>
+                <div><input id="inputWeight" name="weight" type="number" placeholder=" Your weight"  >kg</div>
+            </div>
+        </div>
+        
+        <form class="bmi-img">
+            <p>Your BMI: <span id="resultBmi"></span></p>
+            <img src="public/images/bmi-index.jpg" alt="bmi">
+            <div class="empty"></div>
+        </form>
+    </nav>
+    <!-- OUR BEST TRAINER -->
+    <section class="trainer" id="trainer">
+        <h2 class="sections-header">OUR BEST TRAINER</h2>
+        <div class="header-symbol"></div>
+        <p class="sectin-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laboriosam, accusantium porro ratione sequi quasi?</p>
+        <div class="trainer-container">
+            <div class="trainer-box">
+                <div class="after"></div>
+                <img src="public/images/trainer1.jpg" alt="">
+                <span>Jane Doe <p>Cardio Trainer</p></span>
+                
+            </div>
+            <div class="trainer-box">
+                <div class="after"></div>
+                <img src="public/images/trainer2.jpg" alt="">
+                <span>John Doe <p>Cardio Trainer</p></span>
+            </div>
+            <div class="trainer-box">
+                <div class="after"></div>
+                <img src="public/images/trainer3.jpg" alt="">
+                <span>Jane Doe <p>Cardio Trainer</p></span>
+            </div>
+        </div>
+    </section>
+    <!-- PURCHASE FROM US -->
+    <section class="purchase" id="services">
+        <h2 class="sections-header">PURCHASE FROM US</h2>
+        <div class="header-symbol"></div>
+        <p class="sectin-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laboriosam, accusantium porro ratione sequi quasi?</p>
+        <div class="purchase-container">
+            <div class="purchase-box">
+                <img src="public/images/purchase1.jpg" alt="">
+                <p>Kettlebell / 5kg</p>
+                <div><p class="price">89,99$ </p>/<p>59,99$</p></div>
+                <a href="#">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><g><path d="M20.756 5.345c-.191-.219-.466-.345-.756-.345h-13.819l-.195-1.164c-.08-.482-.497-.836-.986-.836h-2.25c-.553 0-1 .447-1 1s.447 1 1 1h1.403l1.86 11.164.045.124.054.151.12.179.095.112.193.13.112.065c.116.047.238.075.367.075h11.001c.553 0 1-.447 1-1s-.447-1-1-1h-10.153l-.166-1h11.319c.498 0 .92-.366.99-.858l1-7c.041-.288-.045-.579-.234-.797zm-1.909 1.655l-.285 2h-3.562v-2h3.847zm-4.847 0v2h-3v-2h3zm0 3v2h-3v-2h3zm-4-3v2h-3l-.148.03-.338-2.03h3.486zm-2.986 3h2.986v2h-2.653l-.333-2zm7.986 2v-2h3.418l-.285 2h-3.133z"></path><circle cx="8.5" cy="19.5" r="1.5"></circle><circle cx="17.5" cy="19.5" r="1.5"></circle></g></svg>
+                    Add To Card
+                </a>
+            </div>
+            <div class="purchase-box">
+                <img src="public/images/purchase2.jpg" alt="">
+                <p>Treadmill</p>
+                <div><p class="price">899,99$ </p>/<p>599,99$</p></div>
+                <a href="#">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><g><path d="M20.756 5.345c-.191-.219-.466-.345-.756-.345h-13.819l-.195-1.164c-.08-.482-.497-.836-.986-.836h-2.25c-.553 0-1 .447-1 1s.447 1 1 1h1.403l1.86 11.164.045.124.054.151.12.179.095.112.193.13.112.065c.116.047.238.075.367.075h11.001c.553 0 1-.447 1-1s-.447-1-1-1h-10.153l-.166-1h11.319c.498 0 .92-.366.99-.858l1-7c.041-.288-.045-.579-.234-.797zm-1.909 1.655l-.285 2h-3.562v-2h3.847zm-4.847 0v2h-3v-2h3zm0 3v2h-3v-2h3zm-4-3v2h-3l-.148.03-.338-2.03h3.486zm-2.986 3h2.986v2h-2.653l-.333-2zm7.986 2v-2h3.418l-.285 2h-3.133z"></path><circle cx="8.5" cy="19.5" r="1.5"></circle><circle cx="17.5" cy="19.5" r="1.5"></circle></g></svg>
+                    Add To Card
+                </a>
+            </div>
+            <div class="purchase-box">
+                <img src="public/images/purchase3.jpg" alt="">
+                <p>Adjustable Dumbbell</p>
+                <div><p class="price">89,99$ </p>/<p>59,99$</p></div>
+                <a href="#">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><g><path d="M20.756 5.345c-.191-.219-.466-.345-.756-.345h-13.819l-.195-1.164c-.08-.482-.497-.836-.986-.836h-2.25c-.553 0-1 .447-1 1s.447 1 1 1h1.403l1.86 11.164.045.124.054.151.12.179.095.112.193.13.112.065c.116.047.238.075.367.075h11.001c.553 0 1-.447 1-1s-.447-1-1-1h-10.153l-.166-1h11.319c.498 0 .92-.366.99-.858l1-7c.041-.288-.045-.579-.234-.797zm-1.909 1.655l-.285 2h-3.562v-2h3.847zm-4.847 0v2h-3v-2h3zm0 3v2h-3v-2h3zm-4-3v2h-3l-.148.03-.338-2.03h3.486zm-2.986 3h2.986v2h-2.653l-.333-2zm7.986 2v-2h3.418l-.285 2h-3.133z"></path><circle cx="8.5" cy="19.5" r="1.5"></circle><circle cx="17.5" cy="19.5" r="1.5"></circle></g></svg>
+                    Add To Card
+                </a>
+            </div>
+            <div class="purchase-box">
+                <img src="public/images/purchase4.jpg" alt="">
+                <p>Kettlebell / 3kg</p>
+                <div><p class="price">89,99$ </p>/<p>59,99$</p></div>
+                <a href="#">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><g><path d="M20.756 5.345c-.191-.219-.466-.345-.756-.345h-13.819l-.195-1.164c-.08-.482-.497-.836-.986-.836h-2.25c-.553 0-1 .447-1 1s.447 1 1 1h1.403l1.86 11.164.045.124.054.151.12.179.095.112.193.13.112.065c.116.047.238.075.367.075h11.001c.553 0 1-.447 1-1s-.447-1-1-1h-10.153l-.166-1h11.319c.498 0 .92-.366.99-.858l1-7c.041-.288-.045-.579-.234-.797zm-1.909 1.655l-.285 2h-3.562v-2h3.847zm-4.847 0v2h-3v-2h3zm0 3v2h-3v-2h3zm-4-3v2h-3l-.148.03-.338-2.03h3.486zm-2.986 3h2.986v2h-2.653l-.333-2zm7.986 2v-2h3.418l-.285 2h-3.133z"></path><circle cx="8.5" cy="19.5" r="1.5"></circle><circle cx="17.5" cy="19.5" r="1.5"></circle></g></svg>
+                    Add To Card
+                </a>
+            </div>
+        </div>
+    </section >
+    <!-- REVİEW CLİENT -->
+    <nav id="review" class="review">
+        <h2 class="sections-header">REVİEW CLIENT</h2>
+        <div class="header-symbol"></div>
+        <p class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laboriosam, accusantium porro ratione sequi quasi?</p>
+        <div class="review-container">
+            <div class="review-box">
+                <img src="public/images/client1.jpg" alt="">
+                <div>
+                    <h4>Diet  Expect</h4>
+                    <p>CFO</p>
+                </div>
+                <p class="comments">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem necessitatibus porro cupiditate ipsam, quam esse enim. 
+                    Velit nobis sapiente in amet dignissimos reiciendis quas vel.
+                </p>
+            </div>
+            <div class="review-box">
+                <img src="public/images/client2.jpg" alt="">
+                <div>
+                    <h4>Cardio Trainer</h4>
+                    <p>CEO</p>
+                </div>
+                <p class="comments">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem necessitatibus porro cupiditate ipsam, quam esse enim. 
+                    Velit nobis sapiente in amet dignissimos reiciendis quas vel.
+                </p>
+            </div>
+        </div>
+    </nav>
+    <!-- CONTACT US -->
+    <section id="contact" class="contact">
+        <h2 class="sections-header">CONTACT US</h2>
+        <div class="header-symbol"></div>
+        <p class="contact-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laboriosam, accusantium porro ratione sequi quasi?</p>
+        <div class="contact-container">
+            <div class="contact-box">
+                <div class="contact-info">
+                    <span>Mobile Number <p>+136 773 321 4442</p></span>
+                    <span>Email Address <p>demo@demo.com</p></span>
+                </div>
+                <h3>Make An Appoinment</h3>
+                <form action="#">
+                    <input type="text" placeholder=" Your Name">
+                    <input type="email" placeholder=" Your Email">
+                    <textarea  cols="55" rows="9" placeholder=" Your Message"></textarea>
+                </form>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6784.02228630057!2d-70.5623509386103!3d41.45294724664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e5290da8c4c4d1%3A0x178a87a06122a0dc!2sInkwell%20Beach!5e0!3m2!1str!2str!4v1713734772797!5m2!1str!2str" width="90%" height="300px"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <a href="#home"><img src="public/images/logo.png" alt="logo" class="hero-img"></a>
+        <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit iste et veritatis quia 
+            est animi blanditiis reprehenderit architecto id, esse, impedit excepturi aspernatur, 
+            consectetur iusto corporis quibusdam deleniti non nulla. Labore consectetur enim temporibus error.
+        </p>
+        <div class="links-container">
+            <div class="links-box">
+                <h4>Information</h4>
+                <a href="#">About Us</a>
+                <a href="#">Classes</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="links-box">
+                <h4>Helpful Links</h4>
+                <a href="#">Services</a>
+                <a href="#">Supports</a>
+                <a href="#">Terms & Condition</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="counter.js"></script>
+</body>
+</html>
