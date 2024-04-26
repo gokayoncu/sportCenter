@@ -752,7 +752,7 @@ a{
   /* NavBar */
   .navBar{
       padding: 0 3%;
-      width: 99%;
+      width: 100%;
       justify-content: space-between;
       .hero-img{
           height: 40%;
