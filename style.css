@@ -204,7 +204,12 @@ a{
             position: relative;
             z-index: 2;
             flex-direction: column;
-                  
+            
+            .header-symbol{
+                width: 5%;
+                margin: 0 47% 2rem 47%;
+            }
+            
             p{
                 margin: 0 12%;
             }
