@@ -92,7 +92,7 @@ a{
 .head{    
   align-items: center;
   justify-content: center;
-  background-image: url("public/images/hero-man.jpg");
+  background-image: url("/images/hero-man.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
