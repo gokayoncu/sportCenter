@@ -14,21 +14,21 @@ let classesImg = document.querySelector(".btnContainer img")
 yogaBtn.addEventListener("click",()=>{    
     btnHeader.textContent= "Why are your yoga?";
     classesBtnText.textContent ="Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugiat minima impedit excepturi iure, doloremque ipsum! Ullam exercitationem ex odio? ";
-    classesImg.setAttribute("src","assets/yoga.jpg")
+    classesImg.setAttribute("src","public/images/yoga.jpg")
 })
 groupBtn.addEventListener("click",()=>{
     btnHeader.textContent= "Why are your group?";
     classesBtnText.textContent ="Lorem ipsum dolor sit amet  impedit excepturi iure, doloremque ipsum! Ullam exercitationem ex odio? ";
-    classesImg.setAttribute("src","assets/group.webp")
+    classesImg.setAttribute("src","public/images/group.webp")
 })
 soloBtn.addEventListener("click", ()=>{
     btnHeader.textContent= "Why are your solo?";
     classesBtnText.textContent ="Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugiat minima impedit excepturi iure, doloremque ipsum! Ullam exercitationem ex odio? ";
-    classesImg.setAttribute("src","assets/solo.jpg")
+    classesImg.setAttribute("src","public/images/solo.jpg")
 })
 stretchingBtn.addEventListener("click",()=>{
     btnHeader.textContent= "Why are your stretching?";
-    classesImg.setAttribute("src","assets/stret.webp")
+    classesImg.setAttribute("src","public/images/stret.webp")
     classesBtnText.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officia maxime fugiat repudiandae et! Totam, magnam sed consequuntur vero dolorem expedita quis odit. Sunt iusto quos dolores eligendi fuga accusamus ea sapiente explicabo, obcaecati dolor?";
 })
 
